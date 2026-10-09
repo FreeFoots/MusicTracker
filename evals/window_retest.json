@@ -1,0 +1,7 @@
+{
+  "version": "targeted-window-retest-1.0.0",
+  "description": "修复holdout显式30天被模型默认7天覆盖后复测；不是独立未见样本。",
+  "cases": [
+    {"id": "retest_artist_maobuyi", "request": {"input": "只查询网易云上毛不易《消愁》近30天的数据", "platforms": ["netease"]}, "expected_title": "消愁", "expected_days": 30}
+  ]
+}

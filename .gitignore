@@ -1,0 +1,24 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+.env
+.env.*
+.DS_Store
+*.log
+*.db
+*.sqlite
+*.sqlite3
+data/
+frontend/node_modules/
+frontend/.next/
+frontend/.env.local
+frontend/tsconfig.tsbuildinfo
+# Local-only design, collaboration records, and runtime/evaluation output.
+docs/
+adr/
+artifacts/
+[Aa][Gg][Ee][Nn][Tt][Ss].[Mm][Dd]
+[Aa][Gg][Nn][Ee][Tt][Ss].[Mm][Dd]
+frontend/next-env.d.ts

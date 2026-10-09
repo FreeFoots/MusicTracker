@@ -1,0 +1,9 @@
+{
+  "version": "holdout-1.0.0",
+  "description": "本轮优化后的独立验证场景；不含原唱版权/全量版本人工标注，结果允许等待确认或平台部分失败。",
+  "cases": [
+    {"id": "holdout_artist_xusong", "request": {"input": "获取许嵩《有何不可》的近期评论和收藏数据"}, "expected_title": "有何不可", "expected_days": 7},
+    {"id": "holdout_artist_maobuyi", "request": {"input": "只查询网易云上毛不易《消愁》近30天的数据", "platforms": ["netease"]}, "expected_title": "消愁", "expected_days": 30},
+    {"id": "holdout_empty_discovery", "request": {"input": "查询《MusicTracker_不存在_938481》的近期数据"}, "expected_title": "MusicTracker_不存在_938481", "expected_days": 7}
+  ]
+}
